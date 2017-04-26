@@ -1,0 +1,130 @@
+/* Color Palette here: http://www.color-hex.com/color-palette/263
+  blue: #2a334f
+  red: #760d0d
+  tan: #E9DCC1
+  dark gray: #2e2e2e
+  brown: #6b4423
+*/
+
+/* Font Pairing is as follows:
+  Headlines: Cinzel Decorative;
+  Body: Amiri;
+*/
+
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body, html {
+  font-family: Helvetica;
+  font-size: 18px;
+  background-image: url("http://img10.deviantart.net/2dd4/i/2004/347/b/3/moon_over_water_by_pixiiiiie.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Amiri', cursive;
+  color: #E9DCC1;
+}
+
+h3 span {
+  transition: all 1.50s ease-out 0.1s;
+}
+
+
+.firstletter {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #760d0d;
+}
+
+/* 1: BEGIN JUMBO STYLING */
+
+.jumbotron {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotext {
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.jumbotext h1 {
+  font-size: 7rem;
+  color: #5d5d5d;
+  opacity: 0.25;
+  transition: all 1.50s ease-out 0.1s;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.jumbotext h2 {
+  font-size: 3rem;
+  color: #5d5d5d;
+  font-family: 'Amiri', serif;
+}
+
+.jumbotext h1:hover {
+  color: #760d0d;
+  opacity: 1.0;
+}
+
+/* Content 1 Section */
+
+.content1 {
+  width: auto;
+  height: auto;
+  background-color: #000000;
+  opacity: 0.80;
+  min-width: 500px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.content1 p {
+  padding: 100px;
+  color: #E9DCC1;
+  font-family: Amiri;
+  min-width: 300px;
+}
+
+/* Gradient Divider 1 */
+
+
+.content2 {
+  width: 100%;
+  height: auto;
+  background-color: #E9DCC1;
+  opacity: 1.0;
+  min-width: 500px;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.content2 h3 {
+  color: #000000;
+  text-align: center;
+}
+
+.content2 p {
+  padding: 100px;
+  color: #000000;
+  font-family: Amiri;
+  min-width: 300px;
+}
