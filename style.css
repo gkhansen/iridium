@@ -106,9 +106,10 @@ h3 span {
 
 .dropdown-content a {
   text-decoration: none;
-  font-family: "Amiri";
+  font-family: 'Cinzel Decorative', cursive;
   color: #E9DCC1;
   padding: 0rem 5rem;
+  font-size: 1.5rem;
 }
 
 
@@ -131,6 +132,8 @@ h3 span {
   font-family: Amiri;
   min-width: 300px;
 }
+
+/* Content 2 Section */
 
 .background2 {
   width: auto;
@@ -162,4 +165,39 @@ h3 span {
 
 .content2 h3 {
   color: #000000;
+}
+
+/*Begin Content 3 Section*/
+
+
+.background3 {
+  width: auto;
+  height: auto;
+  background-image: url("http://az616578.vo.msecnd.net/files/2016/10/14/6361205252881002711840517797_Cool-Coffee-Shop-HD-Wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.content3 {
+  width: auto;
+  height: auto;
+  background-color: #760d0d;
+  opacity: 0.80;
+  min-width: 500px;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-top: 5rem;
+}
+
+.content3 p {
+  padding: 100px;
+  color: #E9DCC1;
+  font-family: Amiri;
+  min-width: 300px;
+}
+
+.content3 h3 {
+  color: #E9DCC1;
 }
