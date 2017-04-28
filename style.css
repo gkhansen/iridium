@@ -90,9 +90,8 @@ h3 span {
   align-items: center;
   align-content: center;
   padding-bottom: 200px;
-  cursor: pointer;
   width: 100%;
-  font-size: 7rem;
+  font-size: 8rem;
   font-weight: 700;
   color: #5d5d5d;
   opacity: 0.0;
@@ -135,6 +134,7 @@ h3 span {
   transition: all 1.50s ease-out 2.8s;
   font-family: 'Amiri', cursive;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .jumbotron:hover p {
@@ -229,4 +229,40 @@ h3 span {
 
 .content3 h3 {
   color: #E9DCC1;
+}
+
+
+/*Begin Content 4 Section*/
+
+
+.background4 {
+  width: auto;
+  height: auto;
+  background-image: url("https://melodywren.files.wordpress.com/2012/11/twillingate-harbor-best-shot.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.content4 {
+  width: auto;
+  height: auto;
+  background-color: #2a334f;
+  opacity: 0.80;
+  min-width: 500px;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-top: 5rem;
+}
+
+.content4 p {
+  padding: 100px;
+  color: #ffffff;
+  font-family: Amiri;
+  min-width: 300px;
+}
+
+.content4 h3 {
+  color: #ffffff;
 }
